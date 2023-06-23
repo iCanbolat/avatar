@@ -69,8 +69,8 @@ const Header = (props: Props) => {
   return (
     <Box sx={{ display: 'flex', position: 'absolute' }}>
 
-      <AppBar component="nav" sx={{ backgroundColor: deger > 0 ? 'black' :'transparent', px: { lg: 18, md: 3, xl: 25 } , transition:'0.8s'}}>
-        <Toolbar sx={{ justifyContent: 'space-between' }}>
+      <AppBar component="nav" sx={{ backgroundColor: deger > 0 ? '#242424' :'transparent', px: { lg: 5, md: 3, xl: 5 } , transition:'0.8s', boxShadow:'none'}}>
+        <Toolbar sx={{ justifyContent: 'space-between', height:'5rem'}}>
           <IconButton
             color="inherit"
             aria-label="open drawer"

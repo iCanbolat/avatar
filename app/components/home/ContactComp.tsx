@@ -5,7 +5,7 @@ type Props = {}
 
 const ContactComp = (props: Props) => {
   return (
-    <Container maxWidth='xl' sx={{ minHeight: '35rem', mt: 7 , backgroundColor:'black'}}>
+    <Container maxWidth='xl' sx={{ minHeight: '35rem', mt: 7 , backgroundColor:'#242424'}}>
       <Typography color={'white'} textAlign={'center'}   fontWeight={900}>HUZURLARINIZDA</Typography>
       <Grid container spacing={2}>
         <Grid item md={4} >
@@ -22,8 +22,8 @@ const ContactComp = (props: Props) => {
         <Typography variant='h1' fontWeight={900}>HEMEN TANIŞALIM</Typography>
         <Typography variant='h3' fontWeight={600}>Seninle konuşmayı çok isteriz</Typography>
         <Box display={'flex'} flexDirection={'row'} width={'100%'} justifyContent={'center'}>
-          <Button sx={{ width: '50%', borderRadius: '2rem', mr: 1, backgroundColor: 'black', border: '1px solid grey' }} variant='contained'> Button</Button>
-          <Button size='large' sx={{ borderRadius: '2rem', backgroundColor: 'white', color: 'black' }} variant='contained'>Lorem </Button>
+          <Button sx={{ width: '50%', borderRadius: '2rem', mr: 1, backgroundColor: '#242424', border: '1px solid grey' }} variant='contained'> Button</Button>
+          <Button size='large' sx={{ borderRadius: '2rem', backgroundColor: 'white', color: '#242424' }} variant='contained'>Lorem </Button>
         </Box>
       </Box>
     </Container>

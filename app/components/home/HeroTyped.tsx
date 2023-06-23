@@ -50,7 +50,8 @@ const HeroTyped = (props: Props) => {
     >
       {letters.map((letter, index) => (
         <motion.span variants={child} key={index} style={{ color: [11, 12, 13, 14, 15, 16, 17, 18].includes(index) ? '#34B197' : 'white' }}>
-          <Typography sx={{ fontSize: { md: '4.1rem', lg: '5.4rem', sm: '3.4rem', xs: '2.9rem', xl:'5.5rem' }, fontWeight: '900', letterSpacing: { xl: '0.5rem', lg: '0.1rem' }, }}>
+          {/*<Typography sx={{ fontSize: { md: '4.1rem', lg: '5.4rem', sm: '3.4rem', xs: '2.9rem', xl:'5.5rem' }, fontWeight: '900', letterSpacing: { xl: '0.5rem', lg: '0.1rem' }, }}>*/}
+          <Typography   sx={{ fontWeight: '900', letterSpacing: { xl: '0.5rem', lg: '0.1rem' }, fontSize:'10.5rem' }}>
             {letter === " " ? "\u00A0" : letter}
           </Typography>
         </motion.span>

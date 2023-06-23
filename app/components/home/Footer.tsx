@@ -8,7 +8,7 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <Box sx={{ backgroundColor: 'black' }} color={'white'} width={'100%'} height={'100%'} pt={10}>
+    <Box sx={{ backgroundColor: '#242424' }} color={'white'} width={'100%'} height={'100%'} pt={10}>
       <Container maxWidth='xl'  >
         <Grid container>
           <Grid item xs={12} md={6} display={'block'} sx={{textAlign: {xs:'center', md:'unset'}, mb:{xs:5,md:2}}}>
@@ -17,10 +17,10 @@ const Footer = (props: Props) => {
             </Typography>
             <Button variant='contained' size='large' sx={{
               backgroundColor: 'white',
-              color: 'black',
+              color: '#242424',
               ':hover': {
                 bgcolor: 'white',
-                color: 'black',
+                color: '#242424',
               },
               mt: 2,
               textTransform: 'capitalize',

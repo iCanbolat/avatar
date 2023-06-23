@@ -25,7 +25,7 @@ export default async function Home() {
   //console.log(res.items[0].fields.works[0].fields.file.url);
 
   return (
-    <div style={{ minHeight: '100vh', width: '100%' }}  >
+    <div  >
       <DeneHero />
       <Hero />
       <Box display={'flex'} flexWrap={'nowrap'} width={'100%'} height={'6rem'} className='sectionTitle' alignItems={'center'} overflow={'hidden'} flexDirection={'row'}>

@@ -13,6 +13,10 @@
 /*    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
 /*}*/
 
+*{
+  font-family: 'Barlow Condensed', sans-serif !important;
+}
+
 /*a {*/
 /*  color: inherit;*/
 /*  text-decoration: none;*/
@@ -32,7 +36,8 @@
 /*  }*/
 /*}*/
 .back{
-  background-image: linear-gradient(to top, #07010f, #07010f, #07010f, #07010f, #07010f, #14131f, #191f2f, #1c2b3f, #144a62, #006b7f, #008e91, #34b197);
+  background: rgb(85,54,125);
+background: linear-gradient(356deg, rgba(85,54,125,1) 0%, rgba(52,177,151,1) 100%);
 }
 .sectionTitle{
   background: rgb(85,54,125);
@@ -55,4 +60,8 @@
 .img-container {
   display: flex;
   align-items: center;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
 }
